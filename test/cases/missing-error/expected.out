@@ -1,0 +1,2 @@
+input.md:1:0: error: expected an error, but the block elaborated cleanly
+input.md: 1 code blocks checked, FAILED

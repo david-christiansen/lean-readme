@@ -1,0 +1,3 @@
+```lean
+example : Greeting := hello
+```

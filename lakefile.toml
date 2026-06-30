@@ -1,0 +1,21 @@
+name = "lean-readme"
+defaultTargets = ["lean-readme"]
+testDriver = "testRunner"
+
+[[lean_lib]]
+name = "LeanReadme"
+
+[[lean_lib]]
+name = "Tests"
+srcDir = "test"
+globs = ["Tests.*"]
+
+[[lean_exe]]
+name = "lean-readme"
+root = "Main"
+supportInterpreter = true
+
+[[lean_exe]]
+name = "testRunner"
+root = "TestRunner"
+needs = ["Tests"]

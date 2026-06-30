@@ -1,0 +1,7 @@
+input.md:2:15: error: Type mismatch
+  true
+has type
+  Bool
+but is expected to have type
+  Nat
+input.md: 1 code blocks checked, FAILED
